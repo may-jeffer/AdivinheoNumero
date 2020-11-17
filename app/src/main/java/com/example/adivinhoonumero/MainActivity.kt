@@ -19,11 +19,11 @@ import kotlin.random.Random
     fun verificar(view: View) {
         val palpite = ed_palpite.text.toString().toInt()
         if(palpite == numero){
-            Toast.makeText(this, "Acertou", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Acertou!", Toast.LENGTH_SHORT).show()
         } else if (palpite > numero) {
-            Toast.makeText(this, "Está acima", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Está acima!", Toast.LENGTH_SHORT).show()
         } else {
-            Toast.makeText(this, "Está abaixo", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Está abaixo!", Toast.LENGTH_SHORT).show()
         }
     }
 }
